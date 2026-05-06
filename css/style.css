@@ -2,11 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif; ;
+    font-family: "Poppins", sans-serif ;
 }
-/* .container{
-    width: 85% !important;
-} */
 .img-logo{
     max-width: 65%;
 }
@@ -81,7 +78,7 @@ a:hover{
     margin: 1%  !important;
     /* border: 0px solid !important;   */
 }
-.card{
+.specialCard{
     border-radius: 0% !important;
     border: none !important;
     overflow: hidden;
@@ -89,7 +86,7 @@ a:hover{
 .card-img-overlay{
     padding:2rem 3rem;
 }
-.card span{
+.specialCard span{
     top: 5%;
     left: 83%;
     padding:2rem 0.8rem 0.8rem 0.8rem;
@@ -97,4 +94,48 @@ a:hover{
 }
 .div-icon:hover i{
     color: black !important;
+}
+.img-circle{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+.h-div{
+    background-color: #000;
+    display: none;
+}
+.div-img-circle:hover .h-div{
+    display: block;
+
+}
+.card-img ,.card-img-top{
+    transition: transform 0.6s ease;
+
+}
+.scale-img:hover img ,.specialCard:hover img ,.card-img-top:hover{
+    transform: scale(1.1);
+
+}
+#new-coll-p{
+    color: #CF600F;
+}
+.card-img-overlay a{
+    color: white;
+}
+.card-img-overlay-b{
+    top: 50% !important;
+}
+.hov-white:hover{
+    color: white !important;
+}
+#search-pro{
+    background-color: #EBEEF0;
+    height: 25rem;
+
+}
+#search-pro .col-6{
+    margin-left: 24%;
+    padding-top: 8%;
+}
+input::placeholder{
+    color: gray !important;
 }
