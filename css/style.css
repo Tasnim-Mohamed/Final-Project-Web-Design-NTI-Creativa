@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif ;
 }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 .img-logo{
     max-width: 65%;
 }
@@ -92,7 +93,7 @@ a:hover{
     padding:2rem 0.8rem 0.8rem 0.8rem;
     aspect-ratio: 1/1;
 }
-.div-icon:hover i{
+.div-icon:hover i ,.effect-3:hover{
     color: black !important;
 }
 .img-circle{
@@ -152,3 +153,63 @@ input::placeholder{
 /* .card{
     height: 27rem;
 } */
+input:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+
+.effect-3{
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
+.effect-3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background:black; 
+    transition: 0.4s;
+}
+
+.effect-3:hover::before{
+    transform: translateX(-100%);
+    
+}
+
+
+/*CodePen Home
+Animating link underline (using CSS transform scale)*/
+#sec-hoodie{
+    height: 38rem !important;
+    
+}
+.div-card-hoodie{
+    top: 10% !important;
+    left: 60% !important;
+}
+#buyNow:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.ml-10{
+    margin-left: 10%;
+}
+.carousel-inner span{
+    top:25% !important;
+    left:40% !important;
+    width: 6rem;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    padding-top: 2%;
+   
+}
