@@ -40,7 +40,7 @@ $(document).ready(function(){
             items:5,
             nav:true,
             loop:true,
-            autoplay:true
+            // autoplay:true
         }
     }
 });

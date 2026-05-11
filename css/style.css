@@ -259,10 +259,38 @@ Animating link underline (using CSS transform scale)*/
     
 }
 
-.owl-carousel:hover .owl-nav{
+#owl-carousel-2:hover .owl-nav ,#owl-carousel-3:hover .owl-nav{
     display:flex ;
 }
 .owl-prev:hover ,.owl-next:hover {
     background-color: #000 !important;
     color: white !important;
+}
+.card:hover .d-icon{
+    display: block !important;
+    left: 80%;
+}
+.top-5{
+    top: 5% !important;
+}
+.left-5{
+    left:5% !important
+}
+.font-smaller{
+    font-size: 0.8rem;
+}
+#makeup-slider{
+    right: 86% !important;
+    display: block;
+    margin-left: 0%;
+}
+#makeup-slider .btn-img{
+    border-radius: 5px !important;
+    width: 6rem !important;
+    height: 6rem !important;
+    background-image: url(../images/cosmetic-12-300x300.jpg);
+    background-size: cover;
+}
+.ml-20{
+    margin-left: 17% ;
 }
