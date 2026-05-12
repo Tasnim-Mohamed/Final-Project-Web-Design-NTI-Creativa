@@ -23,7 +23,7 @@ $(document).ready(function(){
 }); 
 
 $(document).ready(function(){
-  $("#owl-carousel-2").owlCarousel({
+  $(".owl-carousel-2").owlCarousel({
     loop:true,
     margin:10,
     responsiveClass:true,
@@ -40,7 +40,7 @@ $(document).ready(function(){
             items:5,
             nav:true,
             loop:true,
-            // autoplay:true
+            autoplay:true
         }
     }
 });
@@ -68,9 +68,15 @@ $(document).ready(function(){
     }
 });
 }); 
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl)) 
-$(document).on('click', 'a[href="#"]', function(e){
-  e.preventDefault();
-});
+let headers = document.querySelectorAll(".head-menu")
+let content = document.querySelectorAll(".body-menu")
+
+headers.forEach((h, i)=>{
+    h.addEventListener("click", function(){
+        content.forEach((c, i)=> c.classList.add("d-none"))
+        content[i].classList.toggle("d-none")
+    })
+})
+
+
 

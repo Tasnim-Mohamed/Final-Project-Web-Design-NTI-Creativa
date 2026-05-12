@@ -158,15 +158,10 @@ input::placeholder{
 .hoodie-img{
     max-width: 35%;
 }
-/* .card{
-    height: 27rem;
-} */
 input:focus{
     border: none !important;
     outline: none !important;
 }
-
-
 .effect-3{
     position: relative;
     display: inline-block;
@@ -193,10 +188,6 @@ input:focus{
     transform: translateX(-100%);
    
 }
-
-
-/*CodePen Home
-Animating link underline (using CSS transform scale)*/
 #sec-hoodie{
     height: 38rem !important;
     
@@ -204,11 +195,12 @@ Animating link underline (using CSS transform scale)*/
 .div-card-hoodie{
     top: 10% !important;
     left: 55% !important;
+    height: 30rem;
 }
 #buyNow:hover{
-    background-color: white;
-    border: 1px solid black;
-    color: black;
+    background-color: white !important;
+    border: 1px solid black !important;
+    color: black !important;
 }
 .ml-10{
     margin-left: 10%;
@@ -239,27 +231,19 @@ Animating link underline (using CSS transform scale)*/
     z-index: 1;
     top: 30%;
     width: 100%;
-    /* padding-left: 1%;
-    padding-right: 1%; */
     justify-content: space-between;
-    display: none;
-    
+    display: none;    
 }
 .owl-prev ,.owl-next{
     background-color:white !important;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-    width: 2%;
-    
-    
-    
+    width: 2%;   
 }
 .owl-prev span ,.owl-next span{
-    font-size: 30px;
-    
+    font-size: 30px;   
 }
-
-#owl-carousel-2:hover .owl-nav ,#owl-carousel-3:hover .owl-nav{
+.owl-carousel-2:hover .owl-nav ,#owl-carousel-3:hover .owl-nav{
     display:flex ;
 }
 .owl-prev:hover ,.owl-next:hover {
@@ -285,12 +269,43 @@ Animating link underline (using CSS transform scale)*/
     margin-left: 0%;
 }
 #makeup-slider .btn-img{
-    border-radius: 5px !important;
+    background-image: url(../images/cosmetic-12-300x300.jpg);
     width: 6rem !important;
     height: 6rem !important;
-    background-image: url(../images/cosmetic-12-300x300.jpg);
+}
+#hoodie-1{
+    background-image: url(../images/167-4.jpg);
+}
+#hoodie-2{
+    background-image: url(../images/167-2.jpg);
+}
+#hoodie-3{
+    background-image: url(../images/167-3.jpg);
+}
+#hoodie-4{
+    background-image: url(../images//167.jpg);
+}
+#makeup-slider .btn-img ,.btn-hoodie button{
+    border-radius: 5px !important;
     background-size: cover;
 }
 .ml-20{
     margin-left: 17% ;
+}
+.btn-hoodie{
+    margin-left: 5%;
+    top:60%;
+    right : 60%;
+    height: 3rem;
+}
+.mt-20{
+    margin-top: 20%;
+}
+.btn-hoodie button{
+    width: 3rem !important;
+    height: 100% !important;
+}
+.ml-23{
+    margin-left: 23%;
+
 }
